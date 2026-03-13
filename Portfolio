@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Page</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f4f4f4;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    background:white;
+    padding:20px;
+    margin-top:30px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px gray;
+}
+
+h1{
+    color:#2c3e50;
+    border-bottom:2px solid #ddd;
+    padding-bottom:5px;
+}
+
+p{
+    font-size:18px;
+    color:#555;
+}
+
+img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin-top:10px;
+}
+
+ul{
+    list-style-type:square;
+}
+
+li{
+    padding:5px;
+    font-size:16px;
+}
+
+.contact{
+    background:#ecf0f1;
+    padding:10px;
+    border-radius:5px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Abhi Sharma</h1>
+<p>I Love Study</p>
+<img src="profile.jpg" alt="Profile Photo">
+<h1>Education</h1>
+<ul>
+<li><b>10th Class:</b>83%</li>
+<li><b>12th Class:</b>89%</li>
+<li><b>Bachelor of Technology:</b>8CGPA</li>
+</ul>
+<h1>Skills</h1>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>C Language</li>
+<li>Java</li>
+<li>Python</li>
+</ul>
+<h1>Contact</h1>
+<ul class="contact">
+<li><b>Mobile No:</b>9794145251</li>
+<li><b>Email:</b>Abhisharma9794@gmail.com</li>
+</ul>
+</div>
+</body>
+</html>
